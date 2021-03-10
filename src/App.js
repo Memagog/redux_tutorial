@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Form from './components/Form';
+import List from './components/List';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = (props) => {
+  <div>    
+    <div>
+      <h2>React-Redux List</h2>
+      <List/>
     </div>
-  );
+    <div>
+      <h2>Add a new article</h2>
+    <Form/>
+    </div>
+  </div>
 }
-
 export default App;

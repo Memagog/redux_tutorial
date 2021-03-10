@@ -35,5 +35,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "react-redux": "^7.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Memagog/redux_tutorial.git"
+  },
+  "author": "george box",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Memagog/redux_tutorial/issues"
+  },
+  "homepage": "https://github.com/Memagog/redux_tutorial#readme"
 }
